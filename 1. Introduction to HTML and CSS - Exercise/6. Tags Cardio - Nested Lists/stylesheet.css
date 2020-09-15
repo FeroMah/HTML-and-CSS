@@ -1,0 +1,19 @@
+.roman {
+    list-style-type: upper-roman;
+}
+
+.latin {
+    list-style-type: lower-latin;
+}
+
+.decimal {
+    list-style-type: decimal;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.disc {
+    list-style-type: disc;
+}
