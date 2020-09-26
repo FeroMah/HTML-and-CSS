@@ -1,0 +1,25 @@
+/* Below line is link for https://fontawesome.com/; Fetching icons */
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+p {
+    margin: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.btn.click {
+    background-color: #008600;
+}
+
+.btn.mail {
+    background-color: #FF9100;
+}
+
+.fas {
+    margin-right: 5px;
+}
