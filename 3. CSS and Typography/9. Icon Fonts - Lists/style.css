@@ -1,0 +1,13 @@
+/* Below line is link for https://fontawesome.com/; Fetching icons */
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+html {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 20px;
+}
+
+.icons {
+    list-style: none;
+}
