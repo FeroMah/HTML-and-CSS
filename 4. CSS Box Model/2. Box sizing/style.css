@@ -1,0 +1,19 @@
+html {
+    box-sizing: inherit;
+}
+
+section {
+    display: inline-block;
+    border: dotted 2px #1CC881;
+    width: 250px;
+    height: 246px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+p {
+    padding: 20px;
+    width: 100%;
+    border: solid 5px #0936CA;
+    box-sizing: inherit;
+}
