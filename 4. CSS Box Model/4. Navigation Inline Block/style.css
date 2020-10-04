@@ -1,0 +1,20 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: solid 5px black;
+}
+
+nav, h1, ul, li {
+    display: inline-block;
+}
+
+ul, a {
+    text-decoration: none;
+}
+
+nav>ul>li>a {
+    color: lightskyblue;
+    margin: 10px;
+}

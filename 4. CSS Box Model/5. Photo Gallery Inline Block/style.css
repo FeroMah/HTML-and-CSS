@@ -1,0 +1,19 @@
+.gallery {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.gallery li {
+    border: solid 0.4rem black;
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.gallery li img {
+    max-width: 300px;
+    max-height: 450px;
+}
