@@ -1,0 +1,59 @@
+html {
+    margin: 0;
+}
+
+html {
+    background-color: #EFEFEF;
+}
+
+html {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.site-title {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: solid 2px black;
+    padding-bottom: 10px;
+}
+
+img {
+    border: solid 2px black;
+    box-shadow: 0px 0px 10px 2px black;
+    padding: 10px;
+}
+
+.first-article img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.third-article img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left: solid 2px gainsboro;
+    padding-left: 20px;
+    margin-left: 20px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.author, blockquote {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    float: right;
+}
