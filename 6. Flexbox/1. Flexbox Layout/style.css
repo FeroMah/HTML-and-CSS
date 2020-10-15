@@ -1,44 +1,41 @@
 body {
-    margin: 50px;
+    margin: 50px auto;
     background-color: #EFEFEF;
     display: flex;
+    width: 70%;
 }
 
 header, main, aside, footer {
-    border: solid 2px black;
+    /* border: solid 2px black; */
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(46, 46, 46, 0.3);
     background-color: white;
     margin: 12px;
+    justify-content: flex-start;
 }
 
 .page-layout {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: flex-start;
-    width: 72vh;
+    flex-grow: 1;
 }
-
-/* TODO: */
 
 .page-header header {
-    display: flex;
-    height: 500px;
+    height: 15vh;
 }
-
-
 
 .page-middle {
     display: flex;
-    flex-direction: row;
+    justify-content: stretch;
+    height: 40vh;
 }
 
 .page-middle main {
-    max-width: 60%;
-    flex-basis: 70%;
+    width: 60%;
 }
 
 .page-middle aside {
     flex-grow: 1;
+}
+
+.page-footer footer {
+    height: 10vh;
 }
