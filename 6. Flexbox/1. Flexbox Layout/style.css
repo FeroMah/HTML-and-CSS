@@ -1,0 +1,44 @@
+body {
+    margin: 50px;
+    background-color: #EFEFEF;
+    display: flex;
+}
+
+header, main, aside, footer {
+    border: solid 2px black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(46, 46, 46, 0.3);
+    background-color: white;
+    margin: 12px;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 72vh;
+}
+
+/* TODO: */
+
+.page-header header {
+    display: flex;
+    height: 500px;
+}
+
+
+
+.page-middle {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-middle main {
+    max-width: 60%;
+    flex-basis: 70%;
+}
+
+.page-middle aside {
+    flex-grow: 1;
+}
