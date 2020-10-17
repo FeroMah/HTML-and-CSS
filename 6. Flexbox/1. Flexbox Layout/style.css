@@ -1,7 +1,6 @@
 body {
     margin: 50px auto;
     background-color: #EFEFEF;
-    display: flex;
     width: 70%;
 }
 
@@ -38,4 +37,8 @@ header, main, aside, footer {
 
 .page-footer footer {
     height: 10vh;
+}
+
+p {
+    padding: 10px;
 }
