@@ -13,6 +13,7 @@ body {
     flex-wrap: wrap;
     max-width: 15vw;
     height: 35rem;
+    margin: 50px;
 }
 
 .container span {
