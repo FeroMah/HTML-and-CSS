@@ -1,9 +1,12 @@
 /* Use font-family: Helvetica, sans-serif, with font-size: 20px */
 
-body {
-    margin: 0;
+html {
     font-family: Helvetica, sans-serif;
     font-size: 20px;
+}
+
+body {
+    margin: 0;
 }
 
 .container {
@@ -21,13 +24,12 @@ body {
     min-width: 20px;
     text-align: center;
     padding: 5px 25px;
-    margin: 15px;
+    margin: 25px;
 }
 
 span:nth-child(11) {
     order: 1;
 }
-
 
 span:nth-child(2) {
     order: 2;
@@ -48,26 +50,27 @@ span:nth-child(8) {
 span:nth-child(9) {
     order: 6;
 }
-span:nth-child(6){
+
+span:nth-child(6) {
     order: 7;
 }
 
-span:nth-child(5){
+span:nth-child(5) {
     order: 8;
 }
 
-span:nth-child(1){
-    order:9;
+span:nth-child(1) {
+    order: 9;
 }
 
-span:nth-child(3){
+span:nth-child(3) {
     order: 10;
 }
 
-span:nth-child(7){
+span:nth-child(7) {
     order: 11;
 }
 
-span:nth-child(10){
+span:nth-child(10) {
     order: 12;
 }
