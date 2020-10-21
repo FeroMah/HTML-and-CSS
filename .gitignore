@@ -6,6 +6,6 @@
 *.docx#
 
 #Picture formats:
-*.jpg
-*.jpeg
-*.bmp
+#*.jpg
+#*.jpeg
+#*.bmp
