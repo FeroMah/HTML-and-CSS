@@ -1,0 +1,44 @@
+span {
+    display: flex;
+    align-items: center;
+}
+
+span::after {
+    padding-left: 10px;
+}
+
+.mq-width span::after {
+    content: "Viewport width is larger than 600px";
+    color: greenyellow;
+}
+
+@media screen and (max-width:600px) {
+    .mq-width span::after {
+        content: " Viewport width is smaller than 600px";
+        color: red;
+    }
+}
+
+.mq-height span::after {
+    content: "  Viewport height is larger than 600px";
+    color: greenyellow;
+}
+
+@media screen and (max-height:600px) {
+    .mq-height span::after {
+        content: "Viewport height is smaller than 600px";
+        color: red;
+    }
+}
+
+.mq-ar span::after {
+    content: "Aspect Ratio is larger than 8/5";
+    color: greenyellow;
+}
+
+@media screen and (min-aspect-ratio: 8/5) {
+    .mq-ar span::after {
+        content: "Viewport height is smaller than 600px";
+        color: red;
+    }
+}
