@@ -7,6 +7,11 @@ span::after {
     padding-left: 10px;
 }
 
+.mq-width span::before {
+    content: "MQ Width";
+    padding-right: 10px;
+}
+
 .mq-width span::after {
     content: "Viewport width is larger than 600px";
     color: greenyellow;
@@ -19,6 +24,11 @@ span::after {
     }
 }
 
+.mq-height span::before {
+    content: "MQ Height";
+    padding-right: 10px;
+}
+
 .mq-height span::after {
     content: "  Viewport height is larger than 600px";
     color: greenyellow;
@@ -29,6 +39,11 @@ span::after {
         content: "Viewport height is smaller than 600px";
         color: red;
     }
+}
+
+.mq-ar span::before {
+    content: "MQ Aspect Ratio";
+    padding-right: 10px;
 }
 
 .mq-ar span::after {
