@@ -1,0 +1,119 @@
+body {
+    margin: 50px 0;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 65vw;
+}
+
+.page header {
+    display: flex;
+    border-bottom: solid 2px black;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+.site-title {
+    text-transform: uppercase;
+}
+
+.page header {
+    flex-basis: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    blockquote {
+        min-width: 100%;
+    }
+    .first-article, .third-article  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .third-article img , .first-article img {
+        float: none;
+    }
+}
+
+.content main {
+    flex-basis: 70%;
+}
+
+.content aside {
+    flex-basis: 20%;
+}
+
+@media only screen and (min-width: 992px) {
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.first-article img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.third-article img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left: solid 2px gainsboro;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.author, blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    float: right;
+}
+
+p {
+    text-align: justify;
+}

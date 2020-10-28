@@ -1,0 +1,64 @@
+@media screen and (max-width: 992px) {
+    header label {
+        display: flex;
+    }
+    label::before {
+        content: "X";
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border: none;
+    }
+    h1, label {
+        align-self: center;
+    }
+    h1 {
+        padding: 0;
+    }
+    header nav ul {
+        flex-direction: column;
+        flex-basis: 100%;
+        border-top: 2px solid #2D2D2D;
+        border-bottom: 2px solid #2D2D2D;
+    }
+    header nav ul li {
+        flex-basis: 100%;
+    }
+    header nav ul li a {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    header label {
+        display: none;
+    }
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+header nav ul li {
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
