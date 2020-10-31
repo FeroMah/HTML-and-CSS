@@ -1,0 +1,29 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url("responsive.css");
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+    border: 1px solid #CDCDCD;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+.table-legend th {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.table-legend th {
+    width: 30%;
+    padding: 5px;
+    text-align: left;
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    .table-legend {
+        display: none;
+    }
+    tr {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    td {
+        text-transform: capitalize;
+    }
+    .first-name::before {
+        content: "first name ";
+        font-weight: bold;
+        padding-right: 10px;
+        text-transform: capitalize;
+    }
+    .last-name::before {
+        content: "last name ";
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    .job::before {
+        content: "job title ";
+        font-weight: bold;
+        padding-right: 10px;
+    }
+}
