@@ -10,20 +10,19 @@
     td {
         text-transform: capitalize;
     }
+    .first-name::before, .last-name::before, .job::before {
+        padding-right: 10px;
+    }
     .first-name::before {
         content: "first name ";
         font-weight: bold;
-        padding-right: 10px;
-        text-transform: capitalize;
     }
     .last-name::before {
         content: "last name ";
         font-weight: bold;
-        padding-right: 10px;
     }
     .job::before {
         content: "job title ";
         font-weight: bold;
-        padding-right: 10px;
     }
 }
