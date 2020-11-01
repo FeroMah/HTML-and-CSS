@@ -1,0 +1,28 @@
+@media screen and (max-width: 468px) {
+    header .div-header {
+        display: none;
+    }
+    header .logo-center {
+        width: 30%;
+    }
+    .options {
+        flex-direction: column;
+        align-items: center;
+    }
+    header .options article {
+        text-align: center;
+        border-top: 1px solid white;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    main .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+    main .gallery article {
+        margin: 25px;
+    }
+    main .blog article img, .blog-title span, .blog-title a {
+        display: none;
+    }
+}
