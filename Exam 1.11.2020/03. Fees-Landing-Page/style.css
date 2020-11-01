@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+body {
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div img {
+    object-fit: cover;
+}
+
+section {
+    width: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 5px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+.img-backgrond-wrapper {
+    background-color: #54546D;
+    padding: 100px;
+}
+
+body>main>div>img {
+    background-color: #54546D;
+}
+
+.content {
+    width: 90%;
+}
+.content .taxes {
+    
+}
