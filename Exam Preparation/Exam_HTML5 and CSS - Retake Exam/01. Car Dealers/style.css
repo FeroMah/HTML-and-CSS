@@ -5,9 +5,14 @@ body {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     font-weight: normal;
-    text-align: center;
 }
 
 h3 {
@@ -21,7 +26,7 @@ p {
 .container {
     width: 80%;
     display: flex;
-    margin: 100px auto;
+    margin: 50px auto;
     justify-content: space-between;
 }
 
